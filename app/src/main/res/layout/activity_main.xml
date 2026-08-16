@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="雙擊懸浮連點工具"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="點擊間隔時間 (秒，最小 0.1)："
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etInterval"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:hint="0.1"
+        android:inputType="numberDecimal"
+        android:text="0.1" />
+
+    <Button
+        android:id="@+id/btnOpenOverlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="打開懸浮視窗" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:lineSpacingExtra="4dp"
+        android:text="使用說明：\n1. 首次使用請依提示授予「懸浮窗」與「無障礙服務」權限。\n2. 打開懸浮窗後切換至目標 APP。\n3. 拖曳懸浮窗至點擊目標，點擊「開始」即自動連點兩次後結束。"
+        android:textColor="#666666"
+        android:textSize="13sp" />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">雙擊連點器</string>
+    <string name="accessibility_desc">用於執行自動雙次點擊手勢模擬。</string>
+</resources>
