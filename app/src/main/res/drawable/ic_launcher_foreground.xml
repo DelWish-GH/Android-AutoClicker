@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 外圈輔助環 -->
+    <path
+        android:strokeColor="#3300E5FF"
+        android:strokeWidth="2"
+        android:pathData="M54,22 A32,32 0 1,0 54,86 A32,32 0 1,0 54,22" />
+
+    <!-- 主準心圓環 -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:pathData="M54,32 A22,22 0 1,0 54,76 A22,22 0 1,0 54,32" />
+
+    <!-- 十字瞄準刻度線 -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,24 L54,38 M54,70 L54,84 M24,54 L38,54 M70,54 L84,54" />
+
+    <!-- 中心高亮觸控紅點 -->
+    <path
+        android:fillColor="#FF3366"
+        android:pathData="M54,54m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0" />
+</vector>
