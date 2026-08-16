@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 外圓圈 -->
+    <path
+        android:strokeColor="#FF3344"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M12,2A10,10 0 1,0 22,12A10,10 0 0,0 12,2Z" />
+    <!-- 準心十字線 -->
+    <path
+        android:strokeColor="#FF3344"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M12,4L12,8 M12,16L12,20 M4,12L8,12 M16,12L20,12" />
+    <!-- 中心紅點 -->
+    <path
+        android:fillColor="#FF3344"
+        android:pathData="M12,12m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+</vector>

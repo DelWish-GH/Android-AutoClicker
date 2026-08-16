@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:padding="8dp">
 
+    <!-- 拖曳握把 -->
     <TextView
         android:id="@+id/dragHandle"
         android:layout_width="match_parent"
@@ -17,15 +18,17 @@
         android:textColor="#FFFFFF"
         android:textSize="11sp" />
 
+    <!-- 瞄準點指示（直接引用自訂紅準心） -->
     <ImageView
         android:id="@+id/aimPoint"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
         android:layout_gravity="center"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="6dp"
-        android:src="@android:drawable/ic_menu_crop" />
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_target" />
 
+    <!-- 控制按鈕 -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
